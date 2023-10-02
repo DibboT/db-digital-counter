@@ -15,17 +15,19 @@ section h2{
     font-weight: bold;
     color: #fff;
     cursor: pointer;
+    padding-top: 15%;
 
 }
 
 h2:hover{
     color:aqua;
+    
 
 }
 
 .increament-decrement{
     display: flex;
-    padding-top: 20%;
+    padding-top: 10px;
     gap: 10px;
     justify-content: center;
    

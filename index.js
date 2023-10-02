@@ -1,12 +1,23 @@
-const showCounterDisplay = document.getElementById("counter-display");
+const showCounterDisplay = document.getElementById('counterDisplay');
 const showCounterIncrement = document.getElementById("counterIncrementBtn")
 const showCounterDecrement = document.getElementById("counterDecrementBtn")
 
+let counterDisplayValue = 0;
 
-let showCounterDisplayValue = 0;
 
-counterIncrementBtn.addEventListener('click', function(){
-    showCounterDisplayValue += 1;
-    console.log(showCounterDisplayValue)
+counterIncrementBtn.addEventListener('click', function () {
+
+    counterDisplayValue += 1
+    counterDisplay.innerText = counterDisplayValue;
 
 })
+
+counterDecrementBtn.addEventListener('click', function () {
+
+    counterDisplayValue -= 1
+    counterDisplay.innerText = counterDisplayValue
+
+})
+
+
+

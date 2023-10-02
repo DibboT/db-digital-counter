@@ -1,9 +1,11 @@
 
-
-section{
-    background: url('https://i.ibb.co/2d4kR3t/moviebackground.jpg');
+body{
+    background: url('https://i.ibb.co/2d4kR3t/moviebackground.jpg'),
+    linear-gradient(rgba(0,0,0,0.6), rgba(15, 15, 15, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
     background-size: cover;
-    height:90vh;
+    background-attachment: fixed;
     text-align: center;
 }
 

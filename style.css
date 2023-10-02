@@ -22,13 +22,12 @@ section h2{
 h2:hover{
     color:aqua;
     
-
 }
 
 .increament-decrement{
     display: flex;
     padding-top: 10px;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
    
 }
@@ -39,4 +38,15 @@ button{
     font-size: 16px;
     padding: 7px;
     cursor: pointer;
+    border-style: none;
+}
+
+button:hover{
+    background-color: #18729c;
+}
+
+.increament-decrement .counterdisplay{
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: rgb(59, 1, 66);
 }

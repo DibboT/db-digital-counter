@@ -1,0 +1,21 @@
+
+
+section{
+    background: url('https://i.ibb.co/2d4kR3t/moviebackground.jpg');
+    background-size: cover;
+    height:90vh;
+    text-align: center;
+}
+
+section h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+h2:hover{
+    color:aqua;
+
+}
